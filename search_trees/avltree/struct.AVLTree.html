@@ -2,20 +2,20 @@
 </div><h2 id='implementations' class='small-section-header'>Implementations<a href='#implementations' class='anchor'></a></h2><h3 id='impl' class='impl'><code class='in-band'>impl&lt;T:&nbsp;<a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.Ord.html" title="trait core::cmp::Ord">Ord</a> + <a class="trait" href="https://doc.rust-lang.org/nightly/core/marker/trait.Copy.html" title="trait core::marker::Copy">Copy</a> + <a class="trait" href="https://doc.rust-lang.org/nightly/core/fmt/trait.Debug.html" title="trait core::fmt::Debug">Debug</a>&gt; <a class="struct" href="../../search_trees/avltree/struct.AVLTree.html" title="struct search_trees::avltree::AVLTree">AVLTree</a>&lt;T&gt;</code><a href='#impl' class='anchor'></a><a class='srclink' href='../../src/search_trees/avltree.rs.html#275-330' title='goto source code'>[src]</a></h3><div class='impl-items'><h4 id='method.new' class="method"><code>pub fn <a href='#method.new' class='fnname'>new</a>() -&gt; Self</code><a class='srclink' href='../../src/search_trees/avltree.rs.html#285-287' title='goto source code'>[src]</a></h4><div class='docblock'><p>Create a new AVL Tree</p>
 <h1 id="example" class="section-header"><a href="#example">Example</a></h1>
 <div class="example-wrap"><pre class="rust rust-example-rendered">
-<span class="kw">use</span> <span class="ident">trees</span>::<span class="ident">avltree</span>::<span class="ident">AVLTree</span>;
+<span class="kw">use</span> <span class="ident">search_trees</span>::<span class="ident">avltree</span>::<span class="ident">AVLTree</span>;
 
 <span class="kw">let</span> <span class="kw-2">mut</span> <span class="ident">avl</span>: <span class="ident">AVLTree</span><span class="op">&lt;</span><span class="ident">i64</span><span class="op">&gt;</span> <span class="op">=</span> <span class="ident">AVLTree</span>::<span class="ident">new</span>();</pre></div>
 </div><h4 id='method.insert' class="method"><code>pub fn <a href='#method.insert' class='fnname'>insert</a>(&amp;mut self, val: T)</code><a class='srclink' href='../../src/search_trees/avltree.rs.html#299-304' title='goto source code'>[src]</a></h4><div class='docblock'><p>Insert a new value to the tree</p>
 <h1 id="example-1" class="section-header"><a href="#example-1">Example</a></h1>
 <div class="example-wrap"><pre class="rust rust-example-rendered">
-<span class="kw">use</span> <span class="ident">trees</span>::<span class="ident">avltree</span>::<span class="ident">AVLTree</span>;
+<span class="kw">use</span> <span class="ident">search_trees</span>::<span class="ident">avltree</span>::<span class="ident">AVLTree</span>;
 
 <span class="kw">let</span> <span class="kw-2">mut</span> <span class="ident">avl</span> <span class="op">=</span> <span class="ident">AVLTree</span>::<span class="ident">new</span>();
 <span class="ident">avl</span>.<span class="ident">insert</span>(<span class="number">1</span>);</pre></div>
 </div><h4 id='method.delete' class="method"><code>pub fn <a href='#method.delete' class='fnname'>delete</a>(&amp;mut self, val: T)</code><a class='srclink' href='../../src/search_trees/avltree.rs.html#317-322' title='goto source code'>[src]</a></h4><div class='docblock'><p>Delete a value from the tree</p>
 <h1 id="example-2" class="section-header"><a href="#example-2">Example</a></h1>
 <div class="example-wrap"><pre class="rust rust-example-rendered">
-<span class="kw">use</span> <span class="ident">trees</span>::<span class="ident">avltree</span>::<span class="ident">AVLTree</span>;
+<span class="kw">use</span> <span class="ident">search_trees</span>::<span class="ident">avltree</span>::<span class="ident">AVLTree</span>;
 
 <span class="kw">let</span> <span class="kw-2">mut</span> <span class="ident">avl</span> <span class="op">=</span> <span class="ident">AVLTree</span>::<span class="ident">new</span>();
 <span class="ident">avl</span>.<span class="ident">insert</span>(<span class="number">1</span>);
