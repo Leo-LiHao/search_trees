@@ -1,5 +1,5 @@
 
-pub use trees::prelude::{AVLTree, QueryableTree};
+pub use search_trees::prelude::{AVLTree, QueryableTree};
 
 pub fn main() {
     println!("============== AVL Tree ==============");

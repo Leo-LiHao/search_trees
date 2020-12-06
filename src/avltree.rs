@@ -3,9 +3,9 @@
 //! You can generate an AVL tree, and insert or delete nodes.
 //!
 //! ```
-//! use trees::avltree::AVLTree;
+//! use search_trees::avltree::AVLTree;
 //! // use this trait if you want to query information
-//! use trees::base::QueryableTree;
+//! use search_trees::base::QueryableTree;
 //! ```
 
 use std::cell::RefCell;
@@ -278,7 +278,7 @@ impl<T: Ord + Copy + fmt::Debug> AVLTree<T> {
     /// # Example
     ///
     /// ```
-    /// use trees::avltree::AVLTree;
+    /// use search_trees::avltree::AVLTree;
     ///
     /// let mut avl: AVLTree<i64> = AVLTree::new();
     /// ```
@@ -291,7 +291,7 @@ impl<T: Ord + Copy + fmt::Debug> AVLTree<T> {
     /// # Example
     ///
     /// ```
-    /// use trees::avltree::AVLTree;
+    /// use search_trees::avltree::AVLTree;
     ///
     /// let mut avl = AVLTree::new();
     /// avl.insert(1);
@@ -308,7 +308,7 @@ impl<T: Ord + Copy + fmt::Debug> AVLTree<T> {
     /// # Example
     ///
     /// ```
-    /// use trees::avltree::AVLTree;
+    /// use search_trees::avltree::AVLTree;
     ///
     /// let mut avl = AVLTree::new();
     /// avl.insert(1);

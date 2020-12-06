@@ -1,6 +1,6 @@
 //! Utilities for binary search tree, red-black tree, and AVL tree.
 //!
-//! **trees** provides utilities to generate search tree data structures:
+//! **search_trees** provides utilities to generate search tree data structures:
 //!
 //! * [Binary Search Tree](https://en.wikipedia.org/wiki/Binary_search_tree)
 //! * [Red-black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
@@ -11,7 +11,7 @@
 //! ## Binary Search Tree
 //!
 //! ```
-//! use trees::prelude::*;
+//! use search_trees::prelude::*;
 //!
 //! let mut bst = BinarySearchTree::new();
 //! bst.insert(3);
@@ -31,7 +31,7 @@
 //! ## Red-black Tree
 //!
 //! ```
-//! use trees::prelude::*;
+//! use search_trees::prelude::*;
 //!
 //! let mut rbt = RedBlackTree::new();
 //! rbt.insert(3);
@@ -51,7 +51,7 @@
 //! ## AVL Tree
 //!
 //! ```
-//! use trees::prelude::*;
+//! use search_trees::prelude::*;
 //!
 //! let mut avl = AVLTree::new();
 //! avl.insert(3);

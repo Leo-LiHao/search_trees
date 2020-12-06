@@ -1,5 +1,5 @@
 
-pub use trees::prelude::{QueryableTree, RedBlackTree};
+pub use search_trees::prelude::{QueryableTree, RedBlackTree};
 
 pub fn main() {
     println!("============== Red-black Tree ==============");

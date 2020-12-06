@@ -5,7 +5,7 @@
 //! be imported manually:
 //!
 //! ```
-//! use trees::prelude::*;
+//! use search_trees::prelude::*;
 //! ```
 
 pub use crate::avltree::AVLTree;

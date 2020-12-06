@@ -3,9 +3,9 @@
 //! You can generate a binary search tree, and insert or delete nodes.
 //!
 //! ```
-//! use trees::bstree::BinarySearchTree;
+//! use search_trees::bstree::BinarySearchTree;
 //! // use this trait if you want to query information
-//! use trees::base::QueryableTree;
+//! use search_trees::base::QueryableTree;
 //! ```
 
 use std::cell::{RefCell};
@@ -133,7 +133,7 @@ impl<T: Ord + Copy + fmt::Debug> BinarySearchTree<T> {
     /// # Example
     ///
     /// ```
-    /// use trees::bstree::BinarySearchTree;
+    /// use search_trees::bstree::BinarySearchTree;
     ///
     /// let mut bst: BinarySearchTree<i32> = BinarySearchTree::new();
     /// ```
@@ -146,7 +146,7 @@ impl<T: Ord + Copy + fmt::Debug> BinarySearchTree<T> {
     /// # Example
     ///
     /// ```
-    /// use trees::bstree::BinarySearchTree;
+    /// use search_trees::bstree::BinarySearchTree;
     ///
     /// let mut bst = BinarySearchTree::new();
     /// bst.insert(1);
@@ -167,7 +167,7 @@ impl<T: Ord + Copy + fmt::Debug> BinarySearchTree<T> {
     /// # Example
     ///
     /// ```
-    /// use trees::bstree::BinarySearchTree;
+    /// use search_trees::bstree::BinarySearchTree;
     ///
     /// let mut bst = BinarySearchTree::new();
     /// bst.insert(1);

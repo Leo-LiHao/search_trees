@@ -3,9 +3,9 @@
 //! You can generate a red-black tree, and insert or delete nodes.
 //!
 //! ```
-//! use trees::rbtree::RedBlackTree;
+//! use search_trees::rbtree::RedBlackTree;
 //! // use this trait if you want to query information
-//! use trees::base::QueryableTree;
+//! use search_trees::base::QueryableTree;
 //! ```
 
 use std::cell::RefCell;
@@ -716,7 +716,7 @@ impl<T: Ord + Copy + fmt::Debug> RedBlackTree<T> {
     /// # Example
     ///
     /// ```
-    /// use trees::rbtree::RedBlackTree;
+    /// use search_trees::rbtree::RedBlackTree;
     ///
     /// let mut rbt: RedBlackTree<i32> = RedBlackTree::new();
     /// ```
@@ -729,7 +729,7 @@ impl<T: Ord + Copy + fmt::Debug> RedBlackTree<T> {
     // /// # Example
     // ///
     // /// ```
-    // /// use trees::rbtree::RedBlackTree;
+    // /// use search_trees::rbtree::RedBlackTree;
     // ///
     // /// let mut rbt = RedBlackTree::new_from_data(3);
     // /// ```
@@ -750,7 +750,7 @@ impl<T: Ord + Copy + fmt::Debug> RedBlackTree<T> {
     /// # Example
     ///
     /// ```
-    /// use trees::rbtree::RedBlackTree;
+    /// use search_trees::rbtree::RedBlackTree;
     ///
     /// let mut rbt = RedBlackTree::new();
     /// rbt.insert(1);
@@ -778,7 +778,7 @@ impl<T: Ord + Copy + fmt::Debug> RedBlackTree<T> {
     /// # Example
     ///
     /// ```
-    /// use trees::rbtree::RedBlackTree;
+    /// use search_trees::rbtree::RedBlackTree;
     ///
     /// let mut rbt = RedBlackTree::new();
     /// rbt.delete(1);

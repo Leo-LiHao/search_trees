@@ -1,5 +1,5 @@
 
-pub use trees::prelude::{BinarySearchTree, QueryableTree};
+pub use search_trees::prelude::{BinarySearchTree, QueryableTree};
 
 pub fn main() {
     println!("============== Binary Search Tree ==============");

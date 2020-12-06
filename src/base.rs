@@ -3,7 +3,7 @@
 //! Provides query functions for trees and nodes.
 //!
 //! ```
-//! use trees::base::{QueryableTreeNode, QueryableTree};
+//! use search_trees::base::{QueryableTreeNode, QueryableTree};
 //! ```
 
 use std::cell::RefCell;
@@ -131,8 +131,8 @@ pub trait QueryableTree<T: Ord + Copy + fmt::Debug, QTN: QueryableTreeNode<T>> {
     /// //        leaf   node
     /// //              /    \
     /// //           leaf   leaf
-    /// use trees::bstree::BinarySearchTree;
-    /// use trees::base::QueryableTree;
+    /// use search_trees::bstree::BinarySearchTree;
+    /// use search_trees::base::QueryableTree;
     ///
     /// let mut tree = BinarySearchTree::new();
     /// tree.insert(1);
@@ -152,8 +152,8 @@ pub trait QueryableTree<T: Ord + Copy + fmt::Debug, QTN: QueryableTreeNode<T>> {
     /// # Example
     ///
     /// ```
-    /// use trees::bstree::BinarySearchTree;
-    /// use trees::base::QueryableTree;
+    /// use search_trees::bstree::BinarySearchTree;
+    /// use search_trees::base::QueryableTree;
     ///
     /// let mut tree = BinarySearchTree::new();
     /// println!("{}", tree.height());  // 0
@@ -172,8 +172,8 @@ pub trait QueryableTree<T: Ord + Copy + fmt::Debug, QTN: QueryableTreeNode<T>> {
     /// # Example
     ///
     /// ```
-    /// use trees::bstree::BinarySearchTree;
-    /// use trees::base::QueryableTree;
+    /// use search_trees::bstree::BinarySearchTree;
+    /// use search_trees::base::QueryableTree;
     ///
     /// let mut tree = BinarySearchTree::new();
     /// tree.insert(1);
@@ -198,8 +198,8 @@ pub trait QueryableTree<T: Ord + Copy + fmt::Debug, QTN: QueryableTreeNode<T>> {
     /// # Example
     ///
     /// ```
-    /// use trees::bstree::BinarySearchTree;
-    /// use trees::base::QueryableTree;
+    /// use search_trees::bstree::BinarySearchTree;
+    /// use search_trees::base::QueryableTree;
     ///
     /// let mut tree = BinarySearchTree::new();
     /// println!("{}", tree.is_empty());  // true
@@ -218,8 +218,8 @@ pub trait QueryableTree<T: Ord + Copy + fmt::Debug, QTN: QueryableTreeNode<T>> {
     /// # Example
     ///
     /// ```
-    /// use trees::bstree::BinarySearchTree;
-    /// use trees::base::QueryableTree;
+    /// use search_trees::bstree::BinarySearchTree;
+    /// use search_trees::base::QueryableTree;
     ///
     /// let mut tree = BinarySearchTree::new();
     /// println!("{:?}", tree.min());  // None
@@ -242,8 +242,8 @@ pub trait QueryableTree<T: Ord + Copy + fmt::Debug, QTN: QueryableTreeNode<T>> {
     /// # Example
     ///
     /// ```
-    /// use trees::bstree::BinarySearchTree;
-    /// use trees::base::QueryableTree;
+    /// use search_trees::bstree::BinarySearchTree;
+    /// use search_trees::base::QueryableTree;
     ///
     /// let mut tree = BinarySearchTree::new();
     /// println!("{:?}", tree.max());  // None
@@ -266,8 +266,8 @@ pub trait QueryableTree<T: Ord + Copy + fmt::Debug, QTN: QueryableTreeNode<T>> {
     /// # Example
     ///
     /// ```
-    /// use trees::bstree::BinarySearchTree;
-    /// use trees::base::QueryableTree;
+    /// use search_trees::bstree::BinarySearchTree;
+    /// use search_trees::base::QueryableTree;
     ///
     /// let mut tree = BinarySearchTree::new();
     /// tree.insert(1);
@@ -286,8 +286,8 @@ pub trait QueryableTree<T: Ord + Copy + fmt::Debug, QTN: QueryableTreeNode<T>> {
     /// # Example
     ///
     /// ```
-    /// use trees::bstree::BinarySearchTree;
-    /// use trees::base::QueryableTree;
+    /// use search_trees::bstree::BinarySearchTree;
+    /// use search_trees::base::QueryableTree;
     ///
     /// let mut tree = BinarySearchTree::new();
     /// tree.insert(1);

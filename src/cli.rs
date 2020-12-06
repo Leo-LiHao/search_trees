@@ -1,7 +1,7 @@
-use trees::bstree::BinarySearchTree;
-use trees::rbtree::RedBlackTree;
-use trees::avltree::AVLTree;
-use trees::base::QueryableTree;
+use search_trees::bstree::BinarySearchTree;
+use search_trees::rbtree::RedBlackTree;
+use search_trees::avltree::AVLTree;
+use search_trees::base::QueryableTree;
 
 use std::io::{stdin, stdout, Write};
 
