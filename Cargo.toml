@@ -1,0 +1,27 @@
+[package]
+name = "search_trees"
+version = "0.0.0"
+authors = ["Hao Li <li.hao@ualberta.ca>", "Amina Eltahir <eltahir@ualberta.ca>", "Ke Fang <kfang1@ualberta.ca>"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/Leo-LiHao/search_trees"
+documentation = "https://leo-lihao.github.io/search_trees/"
+homepage = "https://crates.io/crates/search_trees"
+description = """
+Utilities for binary search tree, red-black tree, and AVL tree.
+"""
+categories = ["algorithms", "no-std"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+[dev-dependencies]
+criterion = "0.3.3"
+rand = "0.7.3"
+
+[[bench]]
+name = "my_benchmark"
+harness = false
