@@ -1,6 +1,6 @@
 # search_trees
 
-This is a course project for ECE 522, which implements Binary Search Tree, Red-black Tree, and AVL Tree.
+Utilities for binary search tree, red-black tree, and AVL tree.
 
 Promotional video [HERE](https://www.dropbox.com/s/iz2siuhabwe4dp5/ece522_video_v3.mp4?dl=0)
 
