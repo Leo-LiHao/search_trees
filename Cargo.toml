@@ -1,6 +1,6 @@
 [package]
 name = "search_trees"
-version = "0.0.1"
+version = "0.0.2"
 authors = ["Hao Li <li.hao@ualberta.ca>", "Amina Eltahir <eltahir@ualberta.ca>", "Ke Fang <kfang1@ualberta.ca>"]
 license = "MIT OR Apache-2.0"
 readme = "README.md"
